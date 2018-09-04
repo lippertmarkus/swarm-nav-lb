@@ -39,4 +39,4 @@ $Key = Get-Content -Path 'my.key'
 $Encrypted = ConvertFrom-SecureString -SecureString $SecurePasswordString -Key $Key
 Write-Host $Encrypted
 ```
-The key file can be used for `securepassword` and `databaseSecurepassword` of the `nav` service.
+The encrypted password can be used for `securepassword` and `databaseSecurepassword` of the `nav` service.
