@@ -24,7 +24,7 @@ For a simple single-node swarm:
    - Set `volumes` and environment variable `attach_dbs` of service `navdb` according to the location and naming of your databases files
 4. Deploy the stack: `docker stack deploy --compose-file docker-stack.yml mystack`
 
-The ports are published on the host system with default port numbers. ClickOnce deployment is available at [`http://myhost:8080/nav/`](http://myhostsys:8080/nav/).
+Web- and windows client as well as the webservices are available and load balanced. The ports are published on the host system with default port numbers. ClickOnce deployment is available at [`http://myhost:8080/nav/`](http://myhostsys:8080/nav/).
 
 Default user is `myuser` with password `Test123!`
 
