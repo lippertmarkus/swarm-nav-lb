@@ -1,7 +1,7 @@
 Load-Balancing Microsoft Dynamics NAV in Docker Swarm Mode
 ===
 
-Example Docker Stack for dynamically load balancing Microsoft Dynamics NAV inside a Docker Swarm.
+Example Docker Stack for dynamically load balancing Microsoft Dynamics NAV inside a Docker Swarm. For more details see [https://www.axians-infoma.de/navblog/load-balancing-navbc-in-docker-swarm/](https://www.axians-infoma.de/navblog/load-balancing-navbc-in-docker-swarm/)
 
 # Components
 
