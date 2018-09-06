@@ -26,7 +26,11 @@ For a simple single-node swarm:
 
 Web- and windows client as well as the webservices are available and load balanced. The ports are published on the host system with default port numbers. ClickOnce deployment is available at [`http://myhost:8080/nav/`](http://myhostsys:8080/nav/).
 
-Default windows user is `myuser` with password `Test123!`. After making sure the NAV user was sucessfully created you can login with the windows account `NAV\myuser` and the password. Consider using a gMSA for simplified access.
+Default windows user is `myuser` with password `Test123!`. After making sure the NAV user was sucessfully created you can login with the windows account `NAV\myuser` and the password. Consider using a gMSA for simplified access, uncomment the following lines:
+```yml
+#credential_spec:
+#    file: nav.json
+```
 
 Windows authentication is used as default as NavUserPassword authentication uses an AntiForgeryToken cookie in the Webclient. When this cookie is sent to another instances during a failover it causes a `502 Bad Gateway` error and you must delete the AntiForgeryToken cookie by hand.
 

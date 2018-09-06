@@ -44,6 +44,8 @@ services:
     nav:
         image: swarm/nav
         hostname: nav
+        #credential_spec:
+        #    file: nav.json
         environment:
             PublicDnsName: swarm-master.westeurope.cloudapp.azure.com
             Accept_eula: "Y"
