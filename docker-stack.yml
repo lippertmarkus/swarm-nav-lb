@@ -47,7 +47,7 @@ services:
         environment:
             PublicDnsName: swarm-master.westeurope.cloudapp.azure.com
             Accept_eula: "Y"
-            auth: NavUserPassword
+            auth: Windows
             username: myuser
             securepassword: 76492d1116743f0423413b16050a5345MgB8AHUAUABiADIARgB0AEEAeAB6ADcAMQAwAHYAVAAxAHEAMAB5AC8AbAB5AHcAPQA9AHwAOQBkADcAMQA0AGEANQA2ADMAYQA3ADIAMQAwADYAZABlADYAZQA2AGMAMwA3AGUAMABlADUAZgA5AGIAOQBhAGEANwA4ADIAYQBhAGIANgA4ADkAOQAwAGQANAAyADUAYgA5ADgANwBjADkAZgA5ADUAZgBhADYAZAA2AGMAZAA=
             UseSSL: "N"
